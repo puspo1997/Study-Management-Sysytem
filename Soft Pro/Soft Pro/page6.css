@@ -1,0 +1,108 @@
+html, body {
+	  height: 100%;
+	  margin: 0;
+}
+
+.background {
+	height: auto;
+}
+.head{
+	width:100%;
+	height:auto;
+	border: 1px solid gray;
+	background-image: url("img/2.jpg") ;
+	/*background:#002233;*/
+	color: black;
+	min-width:540px;
+}
+.title{
+	text-shadow: 3px 2px gray;
+	text-align:center;
+}
+
+.subheader{
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+	width: 100%;
+	height: auto;
+	background-color: #006699;
+}
+.subheader ul{
+	margin: 0px;
+}
+.subheader ul li{
+	display: inline-block;
+	margin: 5px;
+}
+.subheader ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+	
+h1{
+	text-align: center;	
+}
+form{
+	margin: 20px auto;
+	width: 320px;
+	color: steelblue;
+}
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+input[type="text"]{
+	display: black;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+
+}	
+input[type="password"]{
+	display: black;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+
+}
+input[type="email"]{
+	display: black;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+
+}
+input[type="radio"]{
+	margin: 0 8px 25px 18px;
+}
+input[type="radio"]:first-child{
+	margin-left: 0;
+}	
+input[type="submit"]{
+	width: 344px;
+	height: 45px;
+	border: none;
+	background: steelblue;
+	color: white;
+}
+input[type="submit"]:focus{
+	width: 344px;
+	height: 45px;
+	border: solid steelblue;
+	background: steelblue;
+	color: steelblue;
+}
+input:focus {
+	background: white;
+}	
+input[type="radio"]:checked + label {
+	font-weight: bold;
+	font-size: 18px;
+}
+
